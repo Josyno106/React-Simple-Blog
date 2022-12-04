@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;500&family=Poppins:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #000;
+  color: white;
+}
+
+.story {
+  border: 1px solid red;
+  width: 45em;
+  margin: 1rem auto;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.story a {
+  color: white;
+  text-decoration: none;
+  font-family: "Anek Telugu", sans-serif;
+}
+.story p {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.story:hover p {
+  color: white;
+}
+.story:hover h1 {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.story h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.story p {
+  color: gray;
+}
+
+.App .title {
+  font-size: 3rem;
+  margin-top: 2.5rem;
+
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

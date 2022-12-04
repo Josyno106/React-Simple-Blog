@@ -1,0 +1,32 @@
+.title {
+  color: red;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+.more-stories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.more-stories div {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  width: 50%;
+  color: black;
+  border-radius: 0.3rem;
+  padding: 1rem 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid transparent;
+}
+
+.more-stories div:hover {
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.more-stories div a {
+  color: red;
+}
