@@ -12,7 +12,7 @@ const Post = () => {
   //fetch the post using the passed post ID
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts/9")
+    fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
       .then((response) => response.json())
       .then((json) => {
         setPost(json);
